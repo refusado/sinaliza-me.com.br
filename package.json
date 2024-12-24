@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "serve out",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix"
   },
   "dependencies": {
     "@vidstack/react": "^1.12.12",
