@@ -1,9 +1,9 @@
+import type { Metadata, Viewport } from 'next';
+import { ReactNode } from 'react';
 import { Inter as FontSans } from 'next/font/google';
 import '@vidstack/react/player/styles/base.css';
-import './globals.css';
-
-import type { Metadata } from 'next';
-import PrelineScript from './components/preline-script';
+import '@/styles/globals.css';
+import PrelineScript from '@/components/preline-script';
 
 const sans = FontSans({ subsets: ['latin'], variable: '--font-sans' });
 
@@ -25,15 +25,15 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export const viewport: Viewport = {
+  themeColor: 'blue',
+};
+
+export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${sans.variable}`}>
-      <body className="min-h-screen overflow-x-hidden overflow-y-scroll">
-        {children}
+    <html lang="pt-BR" className={`${sans.variable}`} suppressHydrationWarning>
+      <body className="min-h-screen overflow-x-hidden overflow-y-scroll bg-neutral-900 text-neutral-100">
+        <main>{children}</main>
       </body>
       <PrelineScript />
     </html>
