@@ -33,7 +33,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR" className={`${sans.variable}`} suppressHydrationWarning>
       <body className="min-h-screen overflow-x-hidden overflow-y-scroll bg-neutral-900 text-neutral-100">
-        <main>{children}</main>
+        <main className="container">{children}</main>
       </body>
       <PrelineScript />
     </html>

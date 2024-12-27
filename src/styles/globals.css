@@ -5,3 +5,11 @@
 :root {
   @apply scroll-smooth antialiased;
 }
+
+a {
+  @apply text-blue-400 hover:underline hover:opacity-90;
+}
+
+hr {
+  @apply my-6 opacity-50;
+}
