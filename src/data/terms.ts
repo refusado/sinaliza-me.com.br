@@ -1,5 +1,4 @@
 import { Term } from '@/lib/terms';
-
 export const terms: Term[] = [
   {
     id: '1',
@@ -10,6 +9,7 @@ export const terms: Term[] = [
     video_id: 'Ulvh5ecGPEM',
     starts_at: 118.5,
     ends_at: 124,
+    tags: ['sentimento', 'emoção', 'positivo'],
   },
   {
     id: '2',
@@ -20,6 +20,7 @@ export const terms: Term[] = [
     video_id: '0rf5JF4-Y_c',
     starts_at: 157,
     ends_at: 160.25,
+    tags: ['profissão', 'saúde', 'trabalho'],
   },
   {
     id: '3',
@@ -30,6 +31,7 @@ export const terms: Term[] = [
     video_id: 'VSCe__fPjNw',
     starts_at: 17.9,
     ends_at: 22,
+    tags: ['alimento', 'fruta', 'amarelo'],
   },
   {
     id: '4',
@@ -40,6 +42,7 @@ export const terms: Term[] = [
     video_id: '4-URx4sL5sk',
     starts_at: 3,
     ends_at: 12,
+    tags: ['ambiente', 'casa', 'higiene'],
   },
   {
     id: '5',
@@ -50,6 +53,7 @@ export const terms: Term[] = [
     video_id: '2hnegsEln_8',
     starts_at: 14,
     ends_at: 17,
+    tags: ['cor', 'visual', 'branco'],
   },
   {
     id: '6',
@@ -60,6 +64,7 @@ export const terms: Term[] = [
     video_id: 'LZkQtWB6SgI',
     starts_at: 105,
     ends_at: 108,
+    tags: ['alimento', 'restaurante', 'documento'],
   },
   {
     id: '7',
@@ -70,6 +75,7 @@ export const terms: Term[] = [
     video_id: 'Ulvh5ecGPEM',
     starts_at: 199,
     ends_at: 204.75,
+    tags: ['sentimento', 'emoção', 'positivo'],
   },
   {
     id: '8',
@@ -80,6 +86,7 @@ export const terms: Term[] = [
     video_id: 'ktLYrQhwg6Q',
     starts_at: 88.75,
     ends_at: 94,
+    tags: ['verbo', 'atividade'],
   },
   {
     id: '9',
@@ -90,6 +97,7 @@ export const terms: Term[] = [
     video_id: 'Zm4i3_Exjnw',
     starts_at: 6,
     ends_at: 12,
+    tags: ['profissão', 'saúde'],
   },
   {
     id: '10',
@@ -100,6 +108,7 @@ export const terms: Term[] = [
     video_id: 'AGlM_c_qxOo',
     starts_at: 1,
     ends_at: 12,
+    tags: ['profissão', 'saúde', 'trabalho'],
   },
   {
     id: '11',
@@ -110,6 +119,7 @@ export const terms: Term[] = [
     video_id: '103-rPEFB-Y',
     starts_at: 516,
     ends_at: 520.2,
+    tags: ['comunicação', 'profissão'],
   },
   {
     id: '12',
@@ -120,6 +130,7 @@ export const terms: Term[] = [
     video_id: 'tkVdSnaC9Tg',
     starts_at: 17.9,
     ends_at: 21,
+    tags: ['verbo', 'educação'],
   },
   {
     id: '13',
@@ -130,6 +141,7 @@ export const terms: Term[] = [
     video_id: 'ktLYrQhwg6Q',
     starts_at: 211,
     ends_at: 215,
+    tags: ['verbo', 'comunicação'],
   },
   {
     id: '14',
@@ -140,6 +152,7 @@ export const terms: Term[] = [
     video_id: 'i0OHj_FS69Q',
     starts_at: 82,
     ends_at: 88.5,
+    tags: ['social', 'relacionamento'],
   },
   {
     id: '15',
@@ -150,6 +163,7 @@ export const terms: Term[] = [
     video_id: 'i0OHj_FS69Q',
     starts_at: 94,
     ends_at: 97.5,
+    tags: ['social', 'relacionamento'],
   },
   {
     id: '16',
@@ -160,6 +174,7 @@ export const terms: Term[] = [
     video_id: 'i0OHj_FS69Q',
     starts_at: 98,
     ends_at: 105,
+    tags: ['social', 'relacionamento'],
   },
   {
     id: '17',
@@ -170,6 +185,7 @@ export const terms: Term[] = [
     video_id: 'KOWJUWlEZUc',
     starts_at: 2,
     ends_at: 6,
+    tags: ['saúde', 'local', 'profissão'],
   },
   {
     id: '18',
@@ -180,6 +196,7 @@ export const terms: Term[] = [
     video_id: 'upm-4ahb4Xc',
     starts_at: 1,
     ends_at: 16,
+    tags: ['saúde', 'profissão', 'atividade'],
   },
   {
     id: '19',
@@ -190,6 +207,7 @@ export const terms: Term[] = [
     video_id: '4l0_sJqwbLA',
     starts_at: 1,
     ends_at: 14,
+    tags: ['local', 'saúde'],
   },
   {
     id: '20',
@@ -200,6 +218,7 @@ export const terms: Term[] = [
     video_id: 'VSCe__fPjNw',
     starts_at: 111,
     ends_at: 116,
+    tags: ['alimento', 'fruta', 'verde'],
   },
   {
     id: '21',
@@ -210,6 +229,7 @@ export const terms: Term[] = [
     video_id: 'YQqgzH6UCmc',
     starts_at: 63.5,
     ends_at: 69,
+    tags: ['animal', 'réptil'],
   },
   {
     id: '22',
@@ -220,6 +240,7 @@ export const terms: Term[] = [
     video_id: 'VSCe__fPjNw',
     starts_at: 13.5,
     ends_at: 17,
+    tags: ['alimento', 'fruta', 'vermelho'],
   },
   {
     id: '23',
@@ -230,6 +251,7 @@ export const terms: Term[] = [
     video_id: '2hnegsEln_8',
     starts_at: 18,
     ends_at: 22,
+    tags: ['cor', 'visual', 'marrom'],
   },
   {
     id: '24',
@@ -240,6 +262,7 @@ export const terms: Term[] = [
     video_id: 'pvd-SKiKqbQ',
     starts_at: 1,
     ends_at: 11,
+    tags: ['saúde', 'profissão'],
   },
   {
     id: '25',
@@ -250,6 +273,7 @@ export const terms: Term[] = [
     video_id: 'Ulvh5ecGPEM',
     starts_at: 598,
     ends_at: 604.5,
+    tags: ['qualidade', 'positivo'],
   },
   {
     id: '26',
@@ -260,6 +284,7 @@ export const terms: Term[] = [
     video_id: 'Ulvh5ecGPEM',
     starts_at: 609,
     ends_at: 613,
+    tags: ['qualidade', 'positivo'],
   },
   {
     id: '27',
@@ -270,6 +295,7 @@ export const terms: Term[] = [
     video_id: 'VSCe__fPjNw',
     starts_at: 23,
     ends_at: 27,
+    tags: ['fruta', 'alimento', 'vermelho'],
   },
   {
     id: '28',
@@ -280,6 +306,7 @@ export const terms: Term[] = [
     video_id: 'pdAjFwj4kBs',
     starts_at: 39,
     ends_at: 45,
+    tags: ['local', 'arte'],
   },
   {
     id: '29',
@@ -290,6 +317,7 @@ export const terms: Term[] = [
     video_id: 'Ulvh5ecGPEM',
     starts_at: 130.75,
     ends_at: 134.75,
+    tags: ['emoção', 'sentimento', 'negativo'],
   },
   {
     id: '30',
@@ -300,6 +328,7 @@ export const terms: Term[] = [
     video_id: '2yae2T151zg',
     starts_at: 1,
     ends_at: 12,
+    tags: ['saúde', 'profissão', 'atividade'],
   },
   {
     id: '31',
@@ -310,6 +339,7 @@ export const terms: Term[] = [
     video_id: 'YQqgzH6UCmc',
     starts_at: 31,
     ends_at: 36,
+    tags: ['animal', 'ave'],
   },
   {
     id: '32',
@@ -320,6 +350,7 @@ export const terms: Term[] = [
     video_id: 'pdAjFwj4kBs',
     starts_at: 10,
     ends_at: 13,
+    tags: ['atividade', 'lazer'],
   },
   {
     id: '33',
@@ -330,6 +361,7 @@ export const terms: Term[] = [
     video_id: '2hnegsEln_8',
     starts_at: 10,
     ends_at: 13,
+    tags: ['cor', 'visual', 'preto'],
   },
   {
     id: '34',
@@ -340,6 +372,7 @@ export const terms: Term[] = [
     video_id: 'tkVdSnaC9Tg',
     starts_at: 42,
     ends_at: 45,
+    tags: ['educação', 'profissão'],
   },
   {
     id: '35',
@@ -350,6 +383,7 @@ export const terms: Term[] = [
     video_id: '103-rPEFB-Y',
     starts_at: 94.5,
     ends_at: 96.7,
+    tags: ['profissão'],
   },
   {
     id: '36',
@@ -360,6 +394,7 @@ export const terms: Term[] = [
     video_id: 'IEYwUkzJ9Vs',
     starts_at: 17.5,
     ends_at: 24,
+    tags: ['profissão'],
   },
   {
     id: '37',
@@ -370,6 +405,7 @@ export const terms: Term[] = [
     video_id: 'fvM6Qmk69X4',
     starts_at: 0.5,
     ends_at: 12,
+    tags: ['saúde', 'profissão', 'atividade'],
   },
   {
     id: '38',
@@ -380,6 +416,7 @@ export const terms: Term[] = [
     video_id: 'Ulvh5ecGPEM',
     starts_at: 207,
     ends_at: 214,
+    tags: ['emoção', 'sentimento', 'negativo'],
   },
   {
     id: '39',
@@ -390,6 +427,7 @@ export const terms: Term[] = [
     video_id: 'LZkQtWB6SgI',
     starts_at: 532,
     ends_at: 538,
+    tags: ['alimento', 'bebida'],
   },
   {
     id: '40',
@@ -400,6 +438,7 @@ export const terms: Term[] = [
     video_id: 'HBtvSr2z6v4',
     starts_at: 82,
     ends_at: 85,
+    tags: ['saúde'],
   },
   {
     id: '41',
@@ -410,6 +449,7 @@ export const terms: Term[] = [
     video_id: '_uqaq7xUq2s',
     starts_at: 32,
     ends_at: 36,
+    tags: ['alimento', 'local'],
   },
   {
     id: '42',
@@ -420,6 +460,7 @@ export const terms: Term[] = [
     video_id: 'HBtvSr2z6v4',
     starts_at: 92,
     ends_at: 96,
+    tags: ['saúde', 'governo'],
   },
   {
     id: '43',
@@ -430,6 +471,7 @@ export const terms: Term[] = [
     video_id: '0rf5JF4-Y_c',
     starts_at: 123.5,
     ends_at: 128,
+    tags: ['profissão'],
   },
   {
     id: '44',
@@ -440,6 +482,7 @@ export const terms: Term[] = [
     video_id: 'ojqFy40taiU',
     starts_at: 1,
     ends_at: 14,
+    tags: ['profissão', 'acessibilidade', 'libras'],
   },
   {
     id: '45',
@@ -450,6 +493,7 @@ export const terms: Term[] = [
     video_id: '103-rPEFB-Y',
     starts_at: 561,
     ends_at: 569,
+    tags: ['atividade', 'profissão'],
   },
   {
     id: '46',
@@ -460,6 +504,7 @@ export const terms: Term[] = [
     video_id: 'Ulvh5ecGPEM',
     starts_at: 153.5,
     ends_at: 165,
+    tags: ['emoção', 'sentimento', 'negativo'],
   },
   {
     id: '47',
@@ -470,5 +515,6 @@ export const terms: Term[] = [
     video_id: 'Ru91c4V0bdw',
     starts_at: 1,
     ends_at: 8,
+    tags: ['saúde', 'doença'],
   },
 ];

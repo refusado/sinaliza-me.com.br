@@ -4,8 +4,15 @@ import { getRecommendations } from '@/utils/terms-recommendations';
 import Link from 'next/link';
 
 export function TermInfo({ term }: { term: Term }) {
-  const { created_at, modified_at, video_id, ends_at, starts_at, details } =
-    term;
+  const {
+    created_at,
+    modified_at,
+    video_id,
+    ends_at,
+    starts_at,
+    details,
+    tags,
+  } = term;
 
   return (
     <>
@@ -19,6 +26,7 @@ export function TermInfo({ term }: { term: Term }) {
       </p>
       <p>Tempo de duração: {formatSecs(ends_at - starts_at)}s</p>
       <Details />
+      <p>Categorias: {tags?.join(', ')}</p>
       <Recommendations />
     </>
   );

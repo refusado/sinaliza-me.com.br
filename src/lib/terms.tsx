@@ -10,6 +10,7 @@ export type Term = {
   video_id: string;
   starts_at: number;
   ends_at: number;
+  tags: string[];
 };
 
 export type TermDetails = {
