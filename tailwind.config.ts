@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 import { fontFamily as defaultFontFamily } from 'tailwindcss/defaultTheme';
 import preline from 'preline/plugin';
+import vidstack from '@vidstack/react/tailwind.cjs';
 
 export default {
   content: [
@@ -11,6 +12,7 @@ export default {
   theme: {
     container: {
       center: true,
+      padding: '0.625rem',
     },
     extend: {
       fontFamily: {
@@ -18,5 +20,5 @@ export default {
       },
     },
   },
-  plugins: [preline],
+  plugins: [preline, vidstack],
 } satisfies Config;

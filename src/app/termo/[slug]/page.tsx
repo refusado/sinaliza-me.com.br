@@ -2,6 +2,7 @@ import { getTermsLocal } from '@/lib/terms';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { TermInfo } from '../../../components/term-info';
+import { VideoPlayer } from '@/components/video-player';
 
 type Param = { slug: string };
 
@@ -30,6 +31,7 @@ export default async function TermPage({ params }: { params: Promise<Param> }) {
       </h1>
       <Link href="/">Voltar para o início</Link>
       <hr />
+      <VideoPlayer term={foundTerm} />
       <TermInfo term={foundTerm} />
     </section>
   );
