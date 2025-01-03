@@ -4,16 +4,6 @@ import { notFound } from 'next/navigation';
 import { TermInfo } from '../../../components/term-info';
 import { VideoPlayer } from '@/components/video-player';
 
-type Param = { slug: string };
-
-export async function generateStaticParams(): Promise<Param[]> {
-  const terms = await getTermsLocal();
-
-  return terms.map(({ slug }) => ({ slug }));
-}
-
-export const dynamicParams = false;
-
 export default async function TermPage({ params }: { params: Promise<Param> }) {
   const terms = await getTermsLocal();
 
@@ -36,3 +26,13 @@ export default async function TermPage({ params }: { params: Promise<Param> }) {
     </section>
   );
 }
+
+type Param = { slug: string };
+
+export async function generateStaticParams(): Promise<Param[]> {
+  const terms = await getTermsLocal();
+
+  return terms.map(({ slug }) => ({ slug }));
+}
+
+export const dynamicParams = false;

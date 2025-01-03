@@ -1,4 +1,5 @@
 import { terms } from '@/data/terms';
+import { Tag } from './tags';
 
 export type Term = {
   id: string;
@@ -6,16 +7,14 @@ export type Term = {
   modified_at: string;
   slug: string;
   content: string;
-  details?: TermDetails;
+  details?: {
+    description?: string;
+    use_examples?: string[];
+  };
   video_id: string;
   starts_at: number;
   ends_at: number;
-  tags: string[];
-};
-
-export type TermDetails = {
-  description?: string;
-  use_examples?: string[];
+  tags: Tag[];
 };
 
 export async function getTermsLocal(): Promise<Term[]> {

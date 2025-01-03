@@ -1,4 +1,5 @@
 import { Term } from '@/lib/terms';
+
 export const terms: Term[] = [
   {
     id: '1',
