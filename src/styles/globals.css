@@ -13,3 +13,7 @@ a {
 hr {
   @apply my-6 opacity-50;
 }
+
+h1 {
+  @apply text-2xl
+}
